@@ -1,0 +1,11 @@
+# webserver - Settings for an http server
+[webserver]
+
+# ip - Bind the server to a specific ip
+# Must be a string value (wrap in "")
+ip = "127.0.0.1"
+
+# port - Listen on port for http server
+# Must be an integer value (no "")
+port = 8081
+

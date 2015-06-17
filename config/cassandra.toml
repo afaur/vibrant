@@ -1,0 +1,47 @@
+[test]
+
+# Must be a string value (wrap in "")
+host = "127.0.0.1"
+
+# Must be an integer value (no "")
+port = 9042
+
+# Must be a string value (wrap in "")
+keyspace = "test"
+
+
+[development]
+
+# Must be a string value (wrap in "")
+host = "127.0.0.1"
+
+# Must be an integer value (no "")
+port = 9042
+
+# Must be a string value (wrap in "")
+keyspace = "dev"
+
+
+[staging]
+
+# Must be a string value (wrap in "")
+host = "127.0.0.1"
+
+# Must be an integer value (no "")
+port = 9042
+
+# Must be a string value (wrap in "")
+keyspace = "stag"
+
+
+[production]
+
+# Must be a string value (wrap in "")
+host = "127.0.0.1"
+
+# Must be an integer value (no "")
+port = 9042
+
+# Must be a string value (wrap in "")
+keyspace = "prod"
+

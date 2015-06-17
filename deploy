@@ -1,0 +1,20 @@
+#!/bin/bash
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+echo "Startup Webserver"
+echo ""
+
+echo "Specify the server env you like to use when starting:"
+echo ""
+echo "Example (test, development, staging, or production)"
+echo ""
+
+read WSERV_ENV
+
+echo ""
+echo "Server starting using env: $(echo $WSERV_ENV)"
+echo ""
+
+WSERV_ENV="$(echo $WSERV_ENV)" dub
+

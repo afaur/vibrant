@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title My page
+  body
+    h1 Hello #{username}
+    p This is the content of this page. The
+      | We can also use loops and other D statements:
+    block placeholder
+    p.special.small This paragraph has the 'special'
+      | and 'small' CSS classes
+    p#footer This paragraph has the id 'footer'.
+    #somediv.
+      I'm a multiline text
+      inside the div #somediv

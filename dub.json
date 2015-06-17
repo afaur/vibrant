@@ -1,0 +1,14 @@
+{
+	"name": "server",
+	"description": "Testing mongodb and postgres connections.",
+	"copyright": "Copyright © 2015, afaur",
+	"authors": ["afaur"],
+	"dependencies": {
+		"vibe-d": "0.7.23",
+		"pgator-backend": "0.2.4",
+		"toml-d": "0.3.0",
+		"mysql-native": "0.1.2",
+		"cassandra-d": "0.0.2",
+	},
+	"versions": ["VibeCustomMain"]
+}

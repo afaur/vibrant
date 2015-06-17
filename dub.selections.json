@@ -1,0 +1,21 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"pgator-backend": "0.2.4",
+		"derelict-pq": "1.0.1",
+		"memutils": "0.3.3",
+		"pegged": "~master",
+		"derelict-util": "1.9.1",
+		"vibe-d": "0.7.23",
+		"libevent": "2.0.1+2.0.16",
+		"colorize": "1.0.5",
+		"toml-d": "0.3.0",
+		"temple": "0.7.3",
+		"openssl": "1.1.4+1.0.1g",
+		"libev": "5.0.0+4.04",
+		"mysql-native": "0.1.2",
+		"libasync": "0.7.1",
+		"dlogg": "0.4.0",
+		"cassandra-d": "0.0.2"
+	}
+}

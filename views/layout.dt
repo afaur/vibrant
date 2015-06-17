@@ -1,0 +1,8 @@
+doctype html
+html
+  head
+    script(src="/ejs/main.js")
+    link(href="/lcss/bootstrap.css",rel="stylesheet")
+  title Example page
+  body
+    block body

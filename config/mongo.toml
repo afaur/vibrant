@@ -1,0 +1,47 @@
+[test]
+
+# Must be a string value (wrap in "")
+host = "127.0.0.1"
+
+# Must be an integer value (no "")
+port = 27017
+
+# Must be a string value (wrap in "")
+db = "test"
+
+
+[development]
+
+# Must be a string value (wrap in "")
+host = "127.0.0.1"
+
+# Must be an integer value (no "")
+port = 27017
+
+# Must be a string value (wrap in "")
+db = "dev"
+
+
+[staging]
+
+# Must be a string value (wrap in "")
+host = "127.0.0.1"
+
+# Must be an integer value (no "")
+port = 27017
+
+# Must be a string value (wrap in "")
+db = "stag"
+
+
+[production]
+
+# Must be a string value (wrap in "")
+host = "127.0.0.1"
+
+# Must be an integer value (no "")
+port = 27017
+
+# Must be a string value (wrap in "")
+db = "prod"
+

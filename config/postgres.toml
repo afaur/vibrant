@@ -1,0 +1,23 @@
+[test]
+
+# Must be a string value (wrap in "")
+connstring = "dbname=test user=postgres"
+
+
+[development]
+
+# Must be a string value (wrap in "")
+connstring = "dbname=dev user=postgres"
+
+
+[staging]
+
+# Must be a string value (wrap in "")
+connstring = "dbname=stag user=postgres"
+
+
+[production]
+
+# Must be a string value (wrap in "")
+connstring = "dbname=prod user=postgres"
+

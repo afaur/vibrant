@@ -1,0 +1,23 @@
+[test]
+
+# Must be a string value (wrap in "")
+connstring = "host=localhost;port=3306;user=test;pwd=test;db=test"
+
+
+[development]
+
+# Must be a string value (wrap in "")
+connstring = "host=localhost;port=3306;user=test;pwd=test;db=dev"
+
+
+[staging]
+
+# Must be a string value (wrap in "")
+connstring = "host=localhost;port=3306;user=test;pwd=test;db=stag"
+
+
+[production]
+
+# Must be a string value (wrap in "")
+connstring = "host=localhost;port=3306;user=test;pwd=test;db=prod"
+
