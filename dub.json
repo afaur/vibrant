@@ -1,6 +1,6 @@
 {
-	"name": "server",
-	"description": "Testing mongodb and postgres connections.",
+	"name": "Vibrant",
+	"description": "A framework based on vibe.d that provides structure and tools for crafting web solutions.",
 	"copyright": "Copyright © 2015, afaur",
 	"authors": ["afaur"],
 	"dependencies": {
